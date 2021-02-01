@@ -23,7 +23,7 @@ public class PaymentMain9002 {
         private String serverPort;
         @GetMapping("/echo/{s}")
         public String echo(@PathVariable String s) {
-            return "hello Nacos Discovery port:"+serverPort+",," + s;
+            return "hello Nacos Discovery port:"+serverPort+"," + s;
         }
     }
 }
